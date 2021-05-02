@@ -1,5 +1,10 @@
 def solve(s):
-    return s
+    turn = True
+    while True:
+        
+        print("inside while loop")
+        print(turn)
+        turn = not turn
 
 
 if __name__ == "__main__":
